@@ -37,7 +37,6 @@ if (argv.f) { // output destination
 
 
 
-// deepcode ignore PT: <please specify a reason of ignoring this>
 snykFilter.run(source, onReportOutput, filters, options);
 
 function onReportOutput(report) {
